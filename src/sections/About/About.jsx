@@ -12,23 +12,19 @@ export default function About() {
         <div className={styles.grid}>
           <div className={styles.text}>
             <p>
-              Sou <strong>Antonio Kawan</strong>, Cientista da Computação apaixonado por entender
-              como as coisas funcionam por dentro — desde algoritmos até sistemas complexos.
+              Sou <strong>Antonio Kawan</strong>, graduando em Cientista da Computação paixonado 
+              por entender como a tecnologia funciona de verdade.
             </p>
             <p>
-              Tenho experiência em desenvolvimento de software, com foco em soluções
-              eficientes, código limpo e boas práticas de engenharia. Gosto de trabalhar
-              em projetos que unem lógica, criatividade e impacto real.
+              Tenho experiência em desenvolvimento de software, criando soluções automatizadas 
+              que otimizam processos, reduzem retrabalho e aumentam a eficiência. Trabalho com 
+              código limpo, boas práticas e sempre busco desenvolver sistemas que unam lógica, criatividade e impacto real.
             </p>
-            <p>
-              Quando não estou codando, estou explorando novas tecnologias, lendo sobre
-              computação teórica ou contribuindo com projetos open-source.
-            </p>
-
+           
             <div className={styles.info}>
               <div className={styles.infoItem}>
                 <span className={styles.infoLabel}>Localização</span>
-                <span className={styles.infoValue}>Brasil</span>
+                <span className={styles.infoValue}>Araripina, Pernambuco</span>
               </div>
               <div className={styles.infoItem}>
                 <span className={styles.infoLabel}>Disponibilidade</span>
@@ -36,7 +32,7 @@ export default function About() {
               </div>
               <div className={styles.infoItem}>
                 <span className={styles.infoLabel}>Foco</span>
-                <span className={styles.infoValue}>Backend & Sistemas</span>
+                <span className={styles.infoValue}>Full Stack & Automations</span>
               </div>
             </div>
           </div>
@@ -56,7 +52,7 @@ export default function About() {
 }
 
 const STATS = [
-  { number: '10+', label: 'Projetos Concluídos' },
+  { number: '5+', label: 'Projetos Concluídos' },
   { number: '3+', label: 'Anos de Experiência' },
   { number: '5+', label: 'Tecnologias Dominadas' },
   { number: '100%', label: 'Dedicação' },

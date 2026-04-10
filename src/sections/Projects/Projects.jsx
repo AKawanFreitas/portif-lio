@@ -3,10 +3,10 @@ import styles from './Projects.module.css'
 
 const PROJECTS = [
   {
-    title: 'Sistema de Busca Inteligente',
+    title: 'Delegacia 5.0',
     description:
       'Motor de busca com indexação invertida e ranking por relevância, implementado do zero em Python com suporte a queries booleanas e fuzzy search.',
-    tags: ['Python', 'Algoritmos', 'NLP'],
+    tags: ['Prompt', 'Algoritmos', 'NLP'],
     github: 'https://github.com/',
     live: null,
     featured: true,
@@ -25,7 +25,7 @@ const PROJECTS = [
     description:
       'Painel de análise de dados em tempo real com visualizações interativas, integração com APIs REST e autenticação JWT.',
     tags: ['React', 'Node.js', 'PostgreSQL'],
-    github: 'https://github.com/',
+    // github: 'https://github.com/',
     live: 'https://exemplo.com',
     featured: true,
   },
