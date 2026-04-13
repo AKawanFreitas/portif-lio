@@ -4,7 +4,7 @@ const CONTACTS = [
   {
     label: 'E-mail',
     value: 'kawanfreitas05@gmail.com',
-    href: 'mailto:kawanfreitas05@gmail.com',
+      // href: 'kawanfreitas05@gmail.com',
     icon: <EmailIcon />,
   },
   {
