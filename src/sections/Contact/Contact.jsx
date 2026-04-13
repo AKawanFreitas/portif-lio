@@ -10,7 +10,7 @@ const CONTACTS = [
   {
     label: 'LinkedIn',
     value: '@antoniokawan',
-    href: 'www.linkedin.com/in/antonio-kawan-freitas',
+    href: 'https://www.linkedin.com/in/antonio-kawan-freitas',
     icon: <LinkedinIcon />,
   },
   {

@@ -13,7 +13,7 @@ const PROJECTS = [
   {
     title: 'SmartGesso',
     description:
-      'Orientação técnica no desenvolvimento de um sistema para fábrica de gesso. Participo das reuniões do projeto, realizo visitas técnicas ao chão de fábrica e direciono o programador, garantindo que o sistema atenda à realidade da operação, contemplando controle de pesagem, acompanhamento da produção e geração de relatórios operacionais.',
+      'Colaboração técnica no desenvolvimento de um sistema de balança para fábrica de gesso. Participando das reuniões do projeto, realizando visitas técnicas ao chão de fábrica e direcionando o programador, garantindo que o sistema atenda à realidade da operação, contemplando controle de pesagem, acompanhamento da produção e geração de relatórios operacionais.',
     tags: ['NestJS', 'Orientação Técnica', 'Visita Técnica', 'Automação'],
     github: null,
     live: null,
@@ -31,7 +31,7 @@ const PROJECTS = [
    {
     title: 'ControlGesso',
     description:
-      'Orientação técnica no desenvolvimento de um sistema para fábrica de gesso. Participo das reuniões do projeto, realizo visitas técnicas ao chão de fábrica e direciono o programador, garantindo que o sistema atenda à realidade da operação, contemplando controle de pesagem, acompanhamento da produção e geração de relatórios operacionais.',
+      'Colaboração técnica no desenvolvimento de um sistema de balança para fábrica de gesso. Participando das reuniões do projeto, realizando visitas técnicas ao chão de fábrica e direcionando o programador, garantindo que o sistema atenda à realidade da operação, contemplando controle de pesagem, acompanhamento da produção e geração de relatórios operacionais.',
     tags: ['NestJS', 'Orientação Técnica', 'Visita Técnica', 'Automação'],
     github: null,
     live: null,

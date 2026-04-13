@@ -5,8 +5,12 @@
   right: 0;
   z-index: 100;
   padding: 1.25rem 0;
-  transition: background var(--transition), padding var(--transition), border-color var(--transition);
+  transition: background var(--transition), padding var(--transition), border-color var(--transition), transform 0.3s ease;
   border-bottom: 1px solid transparent;
+}
+
+.header.hidden {
+  transform: translateY(-100%);
 }
 
 .header.scrolled {

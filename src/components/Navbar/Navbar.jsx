@@ -130,7 +130,7 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href="/cv.pdf"
+              href="/Antonio Kawan - Currículo.pdf"
               download
               className={styles.cvBtn}
               onClick={handleNavClick}

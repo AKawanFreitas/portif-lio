@@ -11,7 +11,7 @@ export default function About() {
         <div className={styles.grid}>
           <div className={styles.text}>
             <p>
-              Sou <strong>Antonio Kawan</strong>, graduando em Ciência da Computação paixonado 
+              Sou <strong>Antonio Kawan</strong>, graduando em Ciência da Computação apaixonado 
               por entender como a tecnologia funciona de verdade.
             </p>
             <p>

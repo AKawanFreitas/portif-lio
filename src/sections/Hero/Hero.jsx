@@ -13,11 +13,11 @@ export default function Hero() {
           <div className={styles.divider} />
           <p className={styles.role}>Computer Scientist</p>
           <p className={styles.description}>
-            Apaixonado por tecnologia, algoritmos e soluções elegantes.
+            Apaixonado por tecnologia, automações e soluções elegantes.
             Construo software com propósito, performance e atenção aos detalhes.
           </p>
 
-          <a href="/cv.pdf" download className={styles.cvLink}>
+          <a href="/Antonio Kawan - Currículo.pdf" download className={styles.cvLink}>
             <DownloadIcon /> Download CV
           </a>
 

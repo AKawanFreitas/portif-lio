@@ -5,7 +5,8 @@
       "Bash(node -e \"const si = require\\('./node_modules/react-icons/si/index.js'\\); const icons = ['SiFigma','SiJavascript','SiTypescript','SiNodedotjs','SiReact','SiPython','SiN8N','SiNotion','SiHtml5','SiCss3','SiRedis','SiTailwindcss','SiWordpress','SiGit','SiGithub','SiChatwoot']; icons.forEach\\(i => console.log\\(i, !!si[i]\\)\\)\")",
       "Bash(node -e \"const si = require\\('./node_modules/react-icons/si/index.js'\\); const keys = Object.keys\\(si\\); const css = keys.filter\\(k => k.toLowerCase\\(\\).includes\\('css'\\)\\); console.log\\(css.slice\\(0,10\\)\\)\")",
       "Bash(node -e \"const si = require\\('./node_modules/react-icons/si/index.js'\\); const keys = Object.keys\\(si\\); const easy = keys.filter\\(k => k.toLowerCase\\(\\).includes\\('easy'\\)\\); const panel = keys.filter\\(k => k.toLowerCase\\(\\).includes\\('panel'\\)\\); console.log\\('easy:', easy\\); console.log\\('panel:', panel\\)\")",
-      "Bash(node -e ':*)"
+      "Bash(node -e ':*)",
+      "Read(//c/Users/User/**)"
     ]
   }
 }
