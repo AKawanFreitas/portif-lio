@@ -6,7 +6,8 @@
       "Bash(node -e \"const si = require\\('./node_modules/react-icons/si/index.js'\\); const keys = Object.keys\\(si\\); const css = keys.filter\\(k => k.toLowerCase\\(\\).includes\\('css'\\)\\); console.log\\(css.slice\\(0,10\\)\\)\")",
       "Bash(node -e \"const si = require\\('./node_modules/react-icons/si/index.js'\\); const keys = Object.keys\\(si\\); const easy = keys.filter\\(k => k.toLowerCase\\(\\).includes\\('easy'\\)\\); const panel = keys.filter\\(k => k.toLowerCase\\(\\).includes\\('panel'\\)\\); console.log\\('easy:', easy\\); console.log\\('panel:', panel\\)\")",
       "Bash(node -e ':*)",
-      "Read(//c/Users/User/**)"
+      "Read(//c/Users/User/**)",
+      "Bash(npm run:*)"
     ]
   }
 }
