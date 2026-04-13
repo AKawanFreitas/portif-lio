@@ -5,14 +5,13 @@ export default function About() {
   return (
     <section id="sobre" className={`${styles.about} section`}>
       <div className="container">
-        <p className={styles.label}>Quem sou eu</p>
         <h2 className="section-title">Sobre mim</h2>
         <div className="gold-line" />
 
         <div className={styles.grid}>
           <div className={styles.text}>
             <p>
-              Sou <strong>Antonio Kawan</strong>, graduando em Cientista da Computação paixonado 
+              Sou <strong>Antonio Kawan</strong>, graduando em Ciência da Computação paixonado 
               por entender como a tecnologia funciona de verdade.
             </p>
             <p>
@@ -52,7 +51,7 @@ export default function About() {
 }
 
 const STATS = [
-  { number: '5+', label: 'Projetos Concluídos' },
+  { number: '4+', label: 'Projetos Concluídos' },
   { number: '3+', label: 'Anos de Experiência' },
   { number: '5+', label: 'Tecnologias Dominadas' },
   { number: '100%', label: 'Dedicação' },

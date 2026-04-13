@@ -25,7 +25,9 @@ function ColoredText({ text }) {
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
+  const [hidden, setHidden] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const lastScrollY = useRef(0)
   const activeSection = useActiveSection(['sobre', 'habilidades', 'projetos', 'contato'])
   const [logoText, setLogoText] = useState('AK')
   const [blinking, setBlinking] = useState(false)
@@ -90,15 +92,22 @@ export default function Navbar() {
   }, [])
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 50)
-    window.addEventListener('scroll', handleScroll)
+    const handleScroll = () => {
+      const y = window.scrollY
+      setScrolled(y > 50)
+      if (window.innerWidth <= 768) {
+        setHidden(y > lastScrollY.current && y > 80)
+      }
+      lastScrollY.current = y
+    }
+    window.addEventListener('scroll', handleScroll, { passive: true })
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
   const handleNavClick = () => setMenuOpen(false)
 
   return (
-    <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
+    <header className={`${styles.header} ${scrolled ? styles.scrolled : ''} ${hidden ? styles.hidden : ''}`}>
       <nav className={`${styles.nav} container`}>
         <a href="#hero" className={styles.logo} onMouseEnter={() => runRef.current()}>
           <img src="/logo-icon.png" alt="Logo Antonio Kawan" className={styles.logoImg} />
